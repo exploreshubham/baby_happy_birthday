@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Happy Birthday Radhika ❤️</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+</head>
+
+<body>
+
+    <!-- Floating particles -->
+    <div id="particles"></div>
+
+    <!-- ==============================
+         PAGE 1
+    =============================== -->
+
+    <section
+        class="screen active"
+        id="page1"
+    >
+
+        <div class="hero-content">
+
+            <h1>
+                Happy Birthday, Ankita
+            </h1>
+
+            <p>
+                A CINEMATIC JOURNEY CREATED JUST FOR YOU
+            </p>
+
+            <button
+                class="neon-btn"
+                onclick="nextPage()"
+            >
+                OPEN YOUR GIFT
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==============================
+         PAGE 2
+    =============================== -->
+
+    <section
+        class="screen"
+        id="page2"
+    >
+
+        <div class="card">
+
+            <h2>
+                It's Your Special Day
+            </h2>
+
+            <button
+                class="neon-btn"
+                onclick="nextPage()"
+            >
+                NEXT
+            </button>
+
+            <div class="dots">
+                <span class="active"></span>
+                <span></span>
+                <span></span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==============================
+         PAGE 3
+    =============================== -->
+
+    <section
+        class="screen"
+        id="page3"
+    >
+
+        <div class="card">
+
+            <h2>
+                Ready for your surprise?
+            </h2>
+
+            <button
+                class="neon-btn"
+                onclick="nextPage()"
+            >
+                LET'S GO
+            </button>
+
+            <div class="dots">
+                <span></span>
+                <span class="active"></span>
+                <span></span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==============================
+         PAGE 4
+    =============================== -->
+
+    <section
+        class="screen music-screen"
+        id="page4"
+    >
+
+        <div class="fairy-lights"></div>
+
+        <div class="center-content">
+
+            <h2>
+                Music makes it better...
+            </h2>
+
+            <button
+                class="neon-btn"
+                onclick="playMusic()"
+            >
+                🎵 PLAY MUSIC
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==============================
+         PAGE 5
+    =============================== -->
+
+    <section
+        class="screen music-screen"
+        id="page5"
+    >
+
+        <div class="fairy-lights"></div>
+
+        <div class="center-content">
+
+            <h2>
+                Almost there...
+            </h2>
+
+            <button
+                class="neon-btn"
+                onclick="nextPage()"
+            >
+                ✨ SHOW THE MESSAGE
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==============================
+         PAGE 6
+    =============================== -->
+
+    <section
+        class="screen message-screen"
+        id="page6"
+    >
+
+        <div class="curtain left"></div>
+        <div class="curtain right"></div>
+
+        <div class="gold-line left-line"></div>
+        <div class="gold-line right-line"></div>
+
+        <!-- Balloons -->
+        <div class="balloon balloon1"></div>
+        <div class="balloon balloon2"></div>
+        <div class="balloon balloon3"></div>
+        <div class="balloon balloon4"></div>
+
+        <div class="message-card">
+
+            <h1>
+                My Dearest Ankita,
+            </h1>
+
+            <p>
+                Today isn't just a date on the calendar;
+                it's a celebration of the light you bring
+                into my life. Every moment with you is like
+                a frame from a beautiful movie, and I'm
+                so lucky to be your co-star.
+                May this year be filled with as much magic
+                as you give to everyone around you.
+            </p>
+
+            <button
+                class="neon-btn"
+                onclick="nextPage()"
+            >
+                OUR MEMORIES
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==============================
+         PAGE 7
+    =============================== -->
+
+    <section
+        class="screen gallery-screen"
+        id="page7"
+    >
+
+        <div class="gallery-title">
+
+            <h1>
+                Our Beautiful Memories
+            </h1>
+
+            <p>
+                Every picture holds a little piece
+                of our story ❤️
+            </p>
+
+        </div>
+
+        <div class="gallery">
+
+            <div class="photo">
+                <img
+                    src="image/photo1.jpeg"
+                    alt="Memory 1"
+                >
+            </div>
+
+            <div class="photo">
+                <img
+                    src="image/photo2.jpeg"
+                    alt="Memory 2"
+                >
+            </div>
+
+            <div class="photo">
+                <img
+                    src="image/photo3.jpeg"
+                    alt="Memory 3"
+                >
+            </div>
+
+            <div class="photo">
+                <img
+                    src="image/photo4.jpeg"
+                    alt="Memory 4"
+                >
+            </div>
+
+            <div class="photo">
+                <img
+                    src="image/photo5.jpeg"
+                    alt="Memory 5"
+                >
+            </div>
+
+            <div class="photo">
+                <img
+                    src="image/photo6.jpeg"
+                    alt="Memory 6"
+                >
+            </div>
+
+        </div>
+
+        <button
+            class="neon-btn final-btn"
+            onclick="showFinal()"
+        >
+            ONE LAST SURPRISE ❤️
+        </button>
+
+    </section>
+
+
+    <!-- ==============================
+         FINAL PAGE
+    =============================== -->
+
+    <section
+        class="screen final-screen"
+        id="page8"
+    >
+
+        <div class="final-content">
+
+            <div class="heart">
+                ❤️
+            </div>
+
+            <h1>
+                Happy Birthday,
+                Ankita
+            </h1>
+
+            <p>
+                Distance may keep us apart,
+                but it can never stop me from
+                celebrating you.
+
+                <br><br>
+
+                May your smile always shine,
+                your dreams come true,
+                and your life be filled
+                with endless happiness.
+
+                <br><br>
+
+                You deserve all the love
+                and magic in the world.
+            </p>
+
+            <button
+                class="neon-btn"
+                onclick="restart()"
+            >
+                REPLAY THE SURPRISE
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- Music -->
+    <audio
+        id="birthdayMusic"
+        src="image/Wife-Birthday-Song.mp3"
+        loop
+    ></audio>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
